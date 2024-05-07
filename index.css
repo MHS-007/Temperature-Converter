@@ -1,0 +1,133 @@
+body {
+    background-image: url(TCbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transform: translateX(-180px);
+}
+
+.container {
+    width: 400px;
+    height: 330px;
+    background-color: #d6cdcd5e;
+    padding: 20px;
+    border-radius: 17px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.icon-container {
+    text-align: right;
+    font-size: 15px;
+    margin-bottom: 20px;
+    transform: translateY(-10px);
+}
+
+.icon-container i {
+    margin: 2px;
+}
+
+#current-time {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    transform: translate(10px,-33px);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    transform: translateY(-50px);
+}
+
+label {
+    color: #000000;
+    display: block;
+    font-weight: bold;
+    transform: translateY(-60px);
+}
+
+input[type="number"] {
+    font-family: "Kanit", sans-serif;
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    transform: translateY(-60px);
+}
+
+input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+      }
+
+select {
+    font-family: "Kanit", sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    transform: translateY(-60px);
+}
+
+button {
+    font-family: "Kanit", sans-serif;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translateY(-60px);
+}
+
+button:hover{
+    background-color: #174f8a;
+    transition: background-color 0.3s ease;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    transform: translateY(-70px);
+}
+
+.valid-result {
+    color: green;
+    background-color: rgb(79, 226, 79);
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 75px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+.error-message {
+    color: rgb(226, 32, 32);
+    border: none;
+    background-color: #ee7676;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 115px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.error-message::before {
+    font-size: 20px;
+    margin-right: 5px;
+}
